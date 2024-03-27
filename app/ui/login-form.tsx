@@ -13,7 +13,7 @@ import { authenticate } from '../lib/actions';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Login | Acme Dashboard',
+  title: 'Login',
 };
 
 export default function LoginForm() {
