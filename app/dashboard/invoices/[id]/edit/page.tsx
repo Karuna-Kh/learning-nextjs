@@ -14,7 +14,7 @@ export default async function Page({ params }: { params: { id: string } }) {
     fetchInvoiceById(id),
     fetchCustomers(),
   ]);
-  
+
   // Handling 404 errors
   if (!invoice) {
     notFound();
@@ -36,4 +36,3 @@ export default async function Page({ params }: { params: { id: string } }) {
     </main>
   );
 }
-
